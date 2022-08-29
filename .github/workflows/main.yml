@@ -5,6 +5,7 @@ name: Build PL\Java 1.5.x on Java 8 for Postgres 14.
 on:
   push:
     branches: [ "main" ]
+  workflow_dispatch
 
 env:
   JAR_DIR: pljava/pljava-packaging/target
